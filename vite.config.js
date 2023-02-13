@@ -3,7 +3,7 @@
 export default {
     root:"src",
     publicDir: 'public',
-    base:"./",
+    base:"/moulsiri-portfolio/",
     build:{
         outDir:'../dist'
     },
