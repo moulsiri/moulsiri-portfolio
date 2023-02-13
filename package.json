@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "gsap": "^3.11.4",
+    "jquery": "^3.6.3",
+    "lettering.js": "^0.8.2",
+    "locomotive-scroll": "^4.1.4",
+    "remixicon": "^2.5.0",
+    "sass": "^1.58.0",
+    "textillate": "^0.4.1"
+  }
+}

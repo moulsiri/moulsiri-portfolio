@@ -1,0 +1,67 @@
+@import './util';
+
+.transition-container{
+    width:100%;
+    height:100vh;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    z-index: 9;
+    
+
+}
+.transition-child{
+    min-width: 200px;
+    height:inherit;
+    background-color:var(--clr2);
+    position: relative;
+}
+.transition-absolute-child{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    // opacity: 0;
+    background-color: var(--clr1);
+}
+.a-parent{
+    display: block;
+    overflow: hidden;
+    // background-color: red;
+
+    
+}
+.a-child{
+    display: block;
+    // background-color: yellow;
+}
+.font-class{
+    font-family: $fontFace;
+}
+#salutation{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    z-index: 100;
+    h3{
+      color: #fff;
+    font-size: 1.4em;
+    font-weight: 400;
+    font-family: $fontFace;
+    letter-spacing: .1em;  
+    }
+    
+}
+#canvas{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    // background-color: red;
+}
