@@ -1,4 +1,8 @@
 import  gsap  from "gsap";
+// import $ from 'jquery';
+// import letteringJs from "lettering.js";
+// import 'textillate';
+// console.log($)
 const init=()=>{
 
     let Section=document.querySelector("#initialAnime"); //section
@@ -24,6 +28,11 @@ const init=()=>{
         y:"-100%",
         stagger:.05,
         ease:"power1.inOut",
+        onStart:function(){
+            // $(function () {
+            //     $(Section.children).textillate();
+            // })
+        }
       },"-=.5")
     .set(Section,{
         display:"none"

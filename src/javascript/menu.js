@@ -108,7 +108,7 @@ export const menuBtnToggle=()=>{
       
     }
   
-    menuBtn.children[1].addEventListener("click",function(e){
+    menuBtn.addEventListener("click",function(e){
       if(mToggle){
        offMenuBtn()
         mToggle=!mToggle

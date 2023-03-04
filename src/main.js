@@ -38,40 +38,46 @@ window.addEventListener("resize",()=>{
 
 
 // connect button hover animation 
-document.querySelector(".btn").addEventListener("mouseenter",function(){
-    gsap.to("#b-bg1",{
+document.querySelectorAll(".btn").forEach(elm=>elm.addEventListener("mouseenter",function(){
+    let bg1=elm.querySelector('#b-bg1');
+    let txt1=elm.querySelector('#b-txt1');
+    let  txt2=elm.querySelector('#b-txt2');
+    gsap.to(bg1,{
         top:0,
         duration:.5
     })
-    gsap.to("#b-txt1",{
+    gsap.to(txt1,{
         top:"50%",
         duration:.5
 
     })
-    gsap.to('#b-txt2',{
+    gsap.to(txt2,{
         y:"200%",
         duration:.5
 
     })
-})
+}))
   
-document.querySelector(".btn").addEventListener("mouseleave",function(){
-    gsap.to("#b-bg1",{
+document.querySelectorAll(".btn").forEach(elm=>elm.addEventListener("mouseleave",function(){
+    let bg1=elm.querySelector('#b-bg1');
+    let txt1=elm.querySelector('#b-txt1');
+    let  txt2=elm.querySelector('#b-txt2');
+    gsap.to(bg1,{
         top:"100%",
         duration:.5
 
     })
-    gsap.to("#b-txt1",{
+    gsap.to(txt1,{
         top:"-100%",
         duration:.5
 
     })
-    gsap.to('#b-txt2',{
+    gsap.to(txt2,{
         y:"0",
         duration:.5
 
     })
-})
+}))
 
 
 
