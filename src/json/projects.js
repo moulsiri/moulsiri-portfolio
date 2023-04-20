@@ -5,7 +5,7 @@ export const projects=[
         "intro":"networking app",
         "description":"It's an app which will work as bridge between peoples and organisations so that they can work together to save the endangered species",
         "tech":["react","mongodb","node","sass","materialUI","redux"],
-        "img":"save",
+        "img":"saveEndangered",
         "githubLink":"https://github.com/moulsiri/saveEndangeredApp",
         "liveLink":"https://save-endangered-pp4t8t7t6-moulsiri.vercel.app/",
     },
