@@ -7,7 +7,7 @@ export const projects=[
         "tech":["react","mongodb","node","sass","materialUI","redux"],
         "img":"saveEndangered",
         "githubLink":"https://github.com/moulsiri/saveEndangeredApp",
-        "liveLink":"https://save-endangered-pp4t8t7t6-moulsiri.vercel.app/",
+        "liveLink":"https://save-endangered-evvmgr93k-moulsiri.vercel.app/",
     },
     {
         "id":"akjie243lkvid",
