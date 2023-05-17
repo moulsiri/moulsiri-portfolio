@@ -72,7 +72,7 @@ const setMenuContent=()=>{
         </div>
         <div class="p-card-rt">
             <div class="p-img-container">
-                <div class="p-img">
+                <div class="p-img" style="background-color:${elm.color}">
                     <img src=${projectPic[elm.img]} alt="">
                 </div>
                 <div class="p-ovly">

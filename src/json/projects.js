@@ -8,6 +8,7 @@ export const projects=[
         "img":"saveEndangered",
         "githubLink":"https://github.com/moulsiri/saveEndangeredApp",
         "liveLink":"https://save-endangered-evvmgr93k-moulsiri.vercel.app/",
+        "color":"#D5A47A"
     },
     {
         "id":"akjie243lkvid",
@@ -18,6 +19,7 @@ export const projects=[
         "img":"shhop",
         "githubLink":"https://github.com/moulsiri/Shhop",
         "liveLink":"https://shhop-react-app-8qi3-jsdbp25k6-moulsiri.vercel.app/",
+        "color":"#639791"
     },
     {
         "id":"mkjnkjlkj",
@@ -28,6 +30,7 @@ export const projects=[
         "img":"listenNow",
         "githubLink":"https://github.com/moulsiri/Listenow",
         "liveLink":"https://listenow.onrender.com",
+        "color":"#FF8889"
     },
     {
         "id":"aksldmalkkgl",
@@ -38,5 +41,6 @@ export const projects=[
         "img":"covidVisual",
         "githubLink":"https://github.com/moulsiri/covid-data-visualisation",
         "liveLink":"https://moulsiri.github.io/covid-data-visualisation/",
+        "color":"#A7C957"
     }
 ]
