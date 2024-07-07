@@ -443,7 +443,7 @@ nav{
         color: var(--clr2);
         font-weight: 500;
         margin-left: -.1em;
-        font-family: Recline Demo;
+        font-family: $fontFace;
         // background-color: yellow;
         // line-height: .8em;
         display: flex;
@@ -454,7 +454,8 @@ nav{
         }
 
         span{
-            font-family: 'roboto';
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
             // background-color: red;
             // padding-right: 1em;
             color:var(--clr2);
@@ -465,7 +466,7 @@ nav{
     h2{
         font-size: 4em;
         color: var(--clr2);
-        font-family: Recline Demo;
+        font-family: $fontFace;
         // background-color: red;
         font-weight: 400;
         @include mobile(369px){
@@ -473,7 +474,7 @@ nav{
             margin-bottom: .5em;
         }
         .a-child{
-            font-family: 'roboto';
+            font-family:'Roboto', sans-serif;
         }
     }
     h4{

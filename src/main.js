@@ -1,3 +1,7 @@
+// import LocomotiveScroll from 'locomotive-scroll';
+
+
+
 import 'remixicon/fonts/remixicon.css';
 import './style/locomotive.scss';
 import 'animate.css';
@@ -18,6 +22,8 @@ import { splitByLine } from './javascript/TxtTagModifier';
 import { wrapTxt } from './javascript/TxtTagModifier';
 import {canvasParticles} from './javascript/canvas';
 setContent(import.meta.url);
+// const locomotiveScroll = new LocomotiveScroll();
+
 splitByLine();
 wrapTxt();
 menuBtnToggle();

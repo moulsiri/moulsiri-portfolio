@@ -8,8 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
@@ -20,7 +20,7 @@
     "gsap": "^3.11.4",
     "jquery": "^3.6.3",
     "lettering.js": "^0.8.2",
-    "locomotive-scroll": "^4.1.4",
+    "locomotive-scroll": "^5.0.0-beta.13",
     "remixicon": "^2.5.0",
     "sass": "^1.58.0",
     "textillate": "^0.4.1"
